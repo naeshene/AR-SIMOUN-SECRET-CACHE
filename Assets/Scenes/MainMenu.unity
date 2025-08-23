@@ -5042,6 +5042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091600760}
   - component: {fileID: 2091600759}
+  - component: {fileID: 2091600761}
   m_Layer: 0
   m_Name: BGM
   m_TagString: Untagged
@@ -5061,9 +5062,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4bc294757a237e540aaef1a57ed2c36a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.224
+  m_Volume: 0.06
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5160,6 +5161,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091600761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091600758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d006a6e98959b4099b7631d20c7f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2106210225
 GameObject:
   m_ObjectHideFlags: 0
