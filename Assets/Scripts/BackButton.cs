@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BackButton : MonoBehaviour
 {
-   
+
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("MainMenu"); // Go to Main Menu
@@ -13,42 +13,32 @@ public class BackButton : MonoBehaviour
 
     public void GoToLevels()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to Levels
+        SceneManager.LoadScene("Levels"); // Go to Levels
     }
 
     public void GoToAlbum()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to Album
+        SceneManager.LoadScene("Album"); // Go to Album
     }
 
     public void GoToMenu()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to Menu
+        SceneManager.LoadScene("Menu"); // Go to Menu
+    }
 
     public void GoToTutorial()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to Tutorial
+        SceneManager.LoadScene("Tutorial"); // Go to Tutorial
     }
 
     public void GoToSettings()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to Settings
+        SceneManager.LoadScene("Settings"); // Go to Settings
     }
 
     public void GoToAbout()
     {
-        SceneManager.LoadScene("MainMenu"); // Go to About
-    }
-
-    public void GoToExit()
-    {
-        SceneManager.LoadScene("MainMenu"); // Go to Exit
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
-        Debug.Log("Game is quitting..."); // Works only on device, not in editor
+        SceneManager.LoadScene("About"); // Go to About
     }
 
 }
