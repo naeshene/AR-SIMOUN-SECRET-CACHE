@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI nameText;
+    //public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
     private Queue<string> sentences;
